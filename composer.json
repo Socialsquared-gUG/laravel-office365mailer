@@ -1,0 +1,32 @@
+{
+    "name": "socialsquared/office365mailer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Socialsquared\\Office365mailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "noah1400",
+            "email": "48360809+noah1400@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "microsoft/microsoft-graph": "^2.14",
+        "illuminate/support": "^11.23",
+        "symfony/mailer": "^7.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Socialsquared\\Office365mailer\\Office365MailerServiceProvider"
+            ]
+        }
+    }
+}

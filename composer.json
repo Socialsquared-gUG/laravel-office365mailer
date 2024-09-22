@@ -13,9 +13,9 @@
         }
     ],
     "require": {
-        "microsoft/microsoft-graph": "^2.14",
-        "illuminate/support": "^11.23",
-        "symfony/mailer": "^7.1"
+        "microsoft/microsoft-graph": ">=2.14",
+        "illuminate/support": ">=11.23",
+        "symfony/mailer": ">=7.1"
     },
     "config": {
         "allow-plugins": {

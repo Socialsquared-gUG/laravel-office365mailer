@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Mail;
 use Socialsquared\Office365mailer\Transport\Office365Transport;
 
 
-class Office365ServiceProvider extends ServiceProvider 
+class Office365MailerServiceProvider extends ServiceProvider 
 {
     public function boot(): void 
     {

@@ -41,3 +41,7 @@ Add the following to mailer configuration in your `config/mail.php` file to the 
     'client_secret' => env('OFFICE365MAIL_SECRET')
 ],
 ```
+
+## Contributing
+
+Feel free to contribute to this package by creating a pull request.

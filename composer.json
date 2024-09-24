@@ -14,8 +14,7 @@
     ],
     "require": {
         "microsoft/microsoft-graph": ">=2.14",
-        "illuminate/support": ">=11.23",
-        "symfony/mailer": ">=7.1"
+        "laravel/framework": ">=8.0"
     },
     "config": {
         "allow-plugins": {

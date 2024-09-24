@@ -2,6 +2,7 @@
 
 
 Mail driver for Laravel to send emails using the Microsoft Graph API without user authentication and SMTP.
+Works for laravel 8 and above
 
 ## Installation
 
